@@ -13,6 +13,7 @@ body {
   letter-spacing: 0.25rem;
   line-height: 1.5;
   font-size: 0.875rem;
+  background-color: grey;
 }
 
 .container {
@@ -29,12 +30,54 @@ h2 {
   padding: 0.5em;
   border-radius: 10px;
   font-size: 2rem;
+  margin-bottom: 1.5em;
 }
 
 .btn {
-  margin: 2em;
+  padding: 1em 2.5em;
+  border-radius: 10px;
+  text-transform: uppercase;
+  background: transparent;
+  border: 2px solid black;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.btn:hover {
+  color: white;
+  background-color: black;
 }
 
 .colour-name {
+  color: cornflowerblue;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3em;
+  margin: 0 auto;
+  background-color: white;
+}
+
+h4 {
+  margin-left: 1.5em;
+}
+
+.nav-links {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 1.5em;
+}
+
+a:hover {
   color: cornflowerblue;
 }
